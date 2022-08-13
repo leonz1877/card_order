@@ -32,7 +32,7 @@ public class CardOrderTest {
     }
 
     @Test
-    void shouldTestSomething() throws InterruptedException {
+    void shouldTestHappyPath() throws InterruptedException {
         driver.get("http://localhost:9999");
         driver.findElement(By.cssSelector("[data-test-id = name] input")).sendKeys("Уткин Василий");
         driver.findElement(By.cssSelector("[data-test-id = phone] input")).sendKeys("+79293634477");
